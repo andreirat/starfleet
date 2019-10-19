@@ -1,0 +1,23 @@
+@import "colors.scss";
+@import "helpers.scss";
+@import "./modules/login.scss";
+@import "./components/primary-button.scss";
+@import "./modules/topbar.scss";
+@import "./modules/ship/form.scss";
+@import "./modules/sidebar.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #546e7a;
+}
+
+html {
+  background-color: #f1f3f4;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}

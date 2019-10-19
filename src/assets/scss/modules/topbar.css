@@ -1,0 +1,48 @@
+.top-bar {
+  width: calc(100% - 210px);
+  height: 50px;
+  background-color: #fbfcfc;
+  float: right;
+  position: relative;
+  /*padding-right: 25px;*/
+  box-sizing: border-box; }
+  .top-bar input[type=text] {
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding-left: 60px;
+    font-size: 14px;
+    background-color: #fbfcfc;
+    color: #546e7a; }
+  .top-bar input[type=text]:focus {
+    border: 1px solid #9ddb18; }
+  .top-bar input::placeholder {
+    color: #90a4ae; }
+  .top-bar .search-icon {
+    position: absolute;
+    left: 25px;
+    top: 12px; }
+  .top-bar .alert-wrapper {
+    float: right;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    margin-left: 30px; }
+    .top-bar .alert-wrapper .notifications {
+      display: inline-block;
+      position: relative;
+      cursor: pointer; }
+    .top-bar .alert-wrapper .bullet {
+      height: 8px;
+      width: 8px;
+      border-radius: 100%;
+      background-color: #f44336;
+      position: absolute;
+      top: 0;
+      right: 2px; }
+    .top-bar .alert-wrapper .messages {
+      display: inline-block;
+      margin-left: 25px;
+      cursor: pointer; }

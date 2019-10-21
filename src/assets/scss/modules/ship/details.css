@@ -1,0 +1,80 @@
+.ship-details {
+  background-color: black;
+  padding: 60px; }
+  .ship-details .section-title {
+    padding: 10px 50px; }
+  .ship-details .icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .ship-details .icon-text p {
+      margin-left: 10px; }
+  .ship-details .main-wrapper {
+    background-color: white;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 50px 0; }
+    .ship-details .main-wrapper .header-section {
+      padding: 0 50px; }
+      .ship-details .main-wrapper .header-section .image {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px; }
+    .ship-details .main-wrapper .flight-path {
+      margin-top: 20px; }
+      .ship-details .main-wrapper .flight-path img {
+        width: 100%; }
+    .ship-details .main-wrapper .destinations {
+      margin-top: 20px; }
+      .ship-details .main-wrapper .destinations img {
+        width: 100%; }
+      .ship-details .main-wrapper .destinations .image-wrapper {
+        padding: 30px 50px; }
+    .ship-details .main-wrapper .crew {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px 0; }
+      .ship-details .main-wrapper .crew .crew-member-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around; }
+        .ship-details .main-wrapper .crew .crew-member-wrapper .crew-member {
+          display: flex;
+          align-items: center;
+          flex-direction: column; }
+          .ship-details .main-wrapper .crew .crew-member-wrapper .crew-member img {
+            width: 157px;
+            height: 157px;
+            border-radius: 50%; }
+    .ship-details .main-wrapper .issues {
+      margin-top: 20px;
+      background-color: #1D1D1D; }
+      .ship-details .main-wrapper .issues .issues-wrapper {
+        padding: 20px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .ship-details .main-wrapper .issues .issues-wrapper .issue {
+          margin: 20px 0;
+          display: flex; }
+          .ship-details .main-wrapper .issues .issues-wrapper .issue img {
+            width: 200px;
+            height: 200px; }
+          .ship-details .main-wrapper .issues .issues-wrapper .issue p {
+            color: white;
+            margin-bottom: 10px; }
+          .ship-details .main-wrapper .issues .issues-wrapper .issue .issue-details {
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; }
+            .ship-details .main-wrapper .issues .issues-wrapper .issue .issue-details .open {
+              color: green; }
+            .ship-details .main-wrapper .issues .issues-wrapper .issue .issue-details .pending {
+              color: yellow; }
+            .ship-details .main-wrapper .issues .issues-wrapper .issue .issue-details .closed {
+              color: red; }
+            .ship-details .main-wrapper .issues .issues-wrapper .issue .issue-details .details {
+              margin-top: 15px; }

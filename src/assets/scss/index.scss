@@ -3,7 +3,9 @@
 @import "./modules/login.scss";
 @import "./components/primary-button.scss";
 @import "./modules/topbar.scss";
+@import "./modules/dashboard/index.scss";
 @import "./modules/ship/form.scss";
+@import "./modules/ship/details.scss";
 @import "./modules/sidebar.scss";
 
 * {
@@ -17,7 +19,23 @@ html {
   background-color: #f1f3f4;
 }
 
-.main-container {
-  display: flex;
-  flex-direction: row;
+.grid-container {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  //grid-template-rows: 50px 1fr 50px;
+  grid-template-areas: "sidenav main";
+  //height: 100vh;
 }
+
+.main {
+  grid-area: main;
+  background-color: white;
+}
+
+.main-overview {
+   //display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(265px, 1fr)); /* Where the magic happens */
+   grid-auto-rows: 94px;
+   grid-gap: 20px;
+   //margin: 20px;
+ }

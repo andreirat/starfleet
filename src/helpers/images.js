@@ -2,6 +2,8 @@
 import logoGrey from '../assets/images/starfleet-grey-logo.png';
 import logoWhite from '../assets/images/starfleet-white-logo.png';
 import profile from '../assets/images/profile.jpg';
+import flightPath from '../assets/images/flightpath.png';
+import destinations from '../assets/images/destinations.png';
 
 // Icons
 import stats from '../assets/icons/medical-history.png';
@@ -16,7 +18,9 @@ export const images ={
     logoGrey,
     logoWhite
   },
-  profile
+  profile,
+  flightPath,
+  destinations
 };
 
 export const icons = {
